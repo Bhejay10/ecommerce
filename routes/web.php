@@ -6,6 +6,7 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
 
+Route::get('/cart', function () {return view('cart'); })->name('cart');
 
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('dashboard', function () {
