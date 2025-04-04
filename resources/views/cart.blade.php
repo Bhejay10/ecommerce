@@ -217,9 +217,11 @@
                 <span>Total</span>
                 <span>₱479.00</span>
             </div>
+            <a href="{{route('payment')}}">
             <button class="w-full bg-primary hover:bg-primary-hover text-white font-bold py-3 rounded-md mt-4">
                 Proceed to Checkout
             </button>
+            </a>
         </div>
     </div>
 

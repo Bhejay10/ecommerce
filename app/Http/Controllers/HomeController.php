@@ -12,4 +12,7 @@ class HomeController extends Controller{
     public function cart(){
         return view ('cart');
     }
+    public function payment(){
+        return view('payment');
+    }
 }
